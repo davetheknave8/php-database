@@ -5,9 +5,13 @@
 }
 
 li {
+    display: inline-block;
     list-style-type: none;
     color: #EEE1B3;
     text-align: center;
+    margin: 2%;
+    padding: 10px;
+    background-color: #2F394D
 }
 
 h1 {
@@ -20,4 +24,9 @@ h1 {
 
 body {
     background-color: #56666B
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }

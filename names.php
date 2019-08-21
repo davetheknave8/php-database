@@ -10,7 +10,9 @@
     //Looping through $all_results and displaying on DOM
     for($i = 0; $i < count($all_results); $i++){
         $row = $all_results[$i];
-        echo "<li><h3>My name is $row[name] and I am $row[age] years old.</h3></li>" . "\n <br>";
+        echo "<li><h5>My name is $row[name] and I am $row[age] years old.</h5>
+        <br />
+        <img src=\"$row[img]\"</li>" . "\n <br>";
     };
 
      //Closing the connection
