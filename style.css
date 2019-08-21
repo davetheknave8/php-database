@@ -1,0 +1,23 @@
+.names {
+    text-align: center;
+    margin-top: 5%;
+    color: #EEE1B3
+}
+
+li {
+    list-style-type: none;
+    color: #EEE1B3;
+    text-align: center;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    background-color: #330036;
+    padding: 10px;
+    color: white
+}
+
+body {
+    background-color: #56666B
+}
